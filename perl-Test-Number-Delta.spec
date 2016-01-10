@@ -8,14 +8,14 @@
 Summary:	Test::Number::Delta - Compare the difference between numbers agains given tolerance
 Summary(pl.UTF-8):	Test::Number::Delta - porównywanie różnicy między liczbami do podanej tolerancji
 Name:		perl-Test-Number-Delta
-Version:	1.03
+Version:	1.06
 Release:	1
-# same as perl
-License:	GPL v1+ or Artistic
+License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	17d3eec2d5bbe012c4a797af8e75ae39
+# Source0-md5:	f0d420e7f679a0bc593713d21c25f51e
 URL:		http://search.cpan.org/dist/Test-Number-Delta/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -65,7 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README Todo
+%doc Changes README
 %dir %{perl_vendorlib}/Test/Number
 %{perl_vendorlib}/Test/Number/Delta.pm
 %{_mandir}/man3/Test::Number::Delta.3pm*
