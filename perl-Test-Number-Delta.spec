@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Test
 %define		pnam	Number-Delta
 Summary:	Test::Number::Delta - Compare the difference between numbers agains given tolerance
