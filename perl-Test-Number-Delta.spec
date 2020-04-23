@@ -13,10 +13,11 @@ License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f0d420e7f679a0bc593713d21c25f51e
-URL:		http://search.cpan.org/dist/Test-Number-Delta/
+URL:		https://metacpan.org/release/ExtUtils-Depends
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuil(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.45
 BuildRequires:	perl(Test::Builder) >= 0.32
