@@ -8,7 +8,7 @@ Summary:	Test::Number::Delta - Compare the difference between numbers agains giv
 Summary(pl.UTF-8):	Test::Number::Delta - porównywanie różnicy między liczbami do podanej tolerancji
 Name:		perl-Test-Number-Delta
 Version:	1.06
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
