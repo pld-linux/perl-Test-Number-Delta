@@ -17,7 +17,7 @@ URL:		https://metacpan.org/dist/Test-Number-Delta
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	rpmbuil(macros) >= 1.745
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.45
 BuildRequires:	perl(Test::Builder) >= 0.32
